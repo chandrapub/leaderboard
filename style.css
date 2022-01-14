@@ -1,3 +1,83 @@
-header {
-    font-size: 4rem;
+.header-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 2rem;
+    background-color: blue;
+    color: white;
+
+}
+body .header-section {
+    
+}
+
+.logo-img {
+    width: 50px;
+    height: 51px;
+    /* position: absolute; */
+}
+.logo-section {
+    display: flex; 
+    margin-left: 15rem;
+    /* display: grid; */
+    grid-template-columns: 60px 250px;
+    align-items: center;
+}
+.navigation {
+    margin-left: 6rem;
+    display: flex;
+    align-items: center;
+}
+.navigation >a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    
+}
+
+.profile-img {
+    width: 50px;
+    height: 45px;
+}
+
+.player-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap :1.5rem;
+    
+}
+.player {
+    display: grid;
+    grid-template-columns: 50px 200px;
+}
+.player-img {
+    width: 3rem;
+    height: 3rem;
+}
+.top-player {
+    font-size: 2rem;
+    font-weight: bold;
+    color: lightcoral;
+}
+.profile-blog-section {
+    /* background-color: lightcyan; */
+}
+.player-section {
+    background-color: rgb(204, 115, 115);
+    margin: 2rem 10rem;
+    padding: 1rem 2rem;
+}
+.player-container .player-name {
+    text-align: left;
+    padding: 1rem 1rem;
+    font-weight: bold;
+}
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+.blog-img {
+    width: 10rem;
+    height: 6rem;
 }
